@@ -156,6 +156,7 @@
 		329623D619EEBE5A00154971 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0610;
 				ORGANIZATIONNAME = "Matt Neuburg";
 				TargetAttributes = {
@@ -407,6 +408,7 @@
 				329623FF19EEBE5A00154971 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3296240019EEBE5A00154971 /* Build configuration list for PBXNativeTarget "PercentageInStoryboardTests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +417,7 @@
 				3296240219EEBE5A00154971 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
