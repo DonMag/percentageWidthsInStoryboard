@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6249" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G1217" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6243"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
         <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
     </dependencies>
     <scenes>
@@ -17,33 +18,31 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dmw-Rm-ncc">
+                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dmw-Rm-ncc">
                                 <rect key="frame" x="0.0" y="20" width="252" height="580"/>
                                 <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                             </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OUm-NJ-9uJ">
+                            <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="OUm-NJ-9uJ">
                                 <rect key="frame" x="252" y="20" width="150" height="580"/>
                                 <color key="backgroundColor" red="1" green="0.43529412150000002" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                             </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hBw-B2-XcL">
+                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hBw-B2-XcL">
                                 <rect key="frame" x="402" y="20" width="198" height="580"/>
                                 <color key="backgroundColor" red="0.50076308140000003" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                             </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstAttribute="trailing" secondItem="hBw-B2-XcL" secondAttribute="trailing" id="1dW-Bk-UgL"/>
-                            <constraint firstItem="OUm-NJ-9uJ" firstAttribute="leading" secondItem="dmw-Rm-ncc" secondAttribute="trailing" id="5nM-oz-DeN"/>
-                            <constraint firstItem="dmw-Rm-ncc" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.42" id="MWk-xJ-8lf"/>
-                            <constraint firstItem="dmw-Rm-ncc" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="T3M-Bz-rJa"/>
-                            <constraint firstItem="dmw-Rm-ncc" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="TMH-Se-egc"/>
-                            <constraint firstItem="dmw-Rm-ncc" firstAttribute="top" secondItem="OUm-NJ-9uJ" secondAttribute="top" id="YOO-ax-eoF"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="dmw-Rm-ncc" secondAttribute="bottom" id="ap2-GP-bOu"/>
-                            <constraint firstItem="hBw-B2-XcL" firstAttribute="bottom" secondItem="OUm-NJ-9uJ" secondAttribute="bottom" id="byz-u9-Akh"/>
-                            <constraint firstItem="dmw-Rm-ncc" firstAttribute="bottom" secondItem="OUm-NJ-9uJ" secondAttribute="bottom" id="on9-wX-cke"/>
-                            <constraint firstItem="OUm-NJ-9uJ" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.25" id="u7T-Tg-vcL"/>
-                            <constraint firstItem="hBw-B2-XcL" firstAttribute="leading" secondItem="OUm-NJ-9uJ" secondAttribute="trailing" id="uML-lz-i9z"/>
-                            <constraint firstItem="hBw-B2-XcL" firstAttribute="top" secondItem="OUm-NJ-9uJ" secondAttribute="top" id="v9k-kw-h4l"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="dmw-Rm-ncc" secondAttribute="bottom" id="4sa-OJ-azx"/>
+                            <constraint firstItem="dmw-Rm-ncc" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="6ti-W0-YZo"/>
+                            <constraint firstItem="hBw-B2-XcL" firstAttribute="leading" secondItem="OUm-NJ-9uJ" secondAttribute="trailing" id="GwR-TO-oEK"/>
+                            <constraint firstItem="dmw-Rm-ncc" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="H1o-ra-7Nr"/>
+                            <constraint firstItem="hBw-B2-XcL" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.33" constant="1" id="RHh-b8-tmb"/>
+                            <constraint firstItem="dmw-Rm-ncc" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.42" constant="1" id="hr8-xw-pkx"/>
+                            <constraint firstItem="hBw-B2-XcL" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="qLb-1R-z03"/>
+                            <constraint firstAttribute="trailing" secondItem="hBw-B2-XcL" secondAttribute="trailing" id="sGh-GN-Hi3"/>
+                            <constraint firstItem="OUm-NJ-9uJ" firstAttribute="leading" secondItem="dmw-Rm-ncc" secondAttribute="trailing" id="w06-Lq-ZPp"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="hBw-B2-XcL" secondAttribute="bottom" id="zKY-2q-UAq"/>
                         </constraints>
                     </view>
                 </viewController>
